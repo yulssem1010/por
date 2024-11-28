@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 100;
+}
+
+#header .logo h1 {
+    font-size: 24px;
+}
+
+#header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#header .contact button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Visual Section */
+#mainvisual {
+    padding: 150px 30px 60px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#mainvisual h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#mainvisual h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#mainvisual .decorative-elements img {
+    width: 50px;
+    margin: 10px;
+}
+
+#mainvisual p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Work Section */
+#work {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+#work h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 30px;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.career {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.career li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* More Section */
+#more {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+}
+
+#more h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.strength {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px;
+}
+
+.strength .item {
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+}
+
+.strength .item h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+#footer {
+    padding: 40px 30px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#footer button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
